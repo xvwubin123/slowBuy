@@ -1,0 +1,192 @@
+.mm_head {
+  text-align: center;
+  line-height: 1.333333rem /* 100/75 */;
+}
+.mm_head .back {
+  line-height: 1.333333rem /* 100/75 */;
+  color: #fff;
+  float: left;
+  padding-left: 0.266667rem /* 20/75 */;
+  font-size: 0.8rem /* 60/75 */;
+}
+.mm_head .text {
+  font-size: 0.533333rem /* 40/75 */;
+  color: #fff;
+}
+.current {
+  height: 7.52rem /* 564/75 */;
+}
+.money_head {
+  width: 100%;
+  padding: 0.333333rem /* 25/75 */;
+}
+.money_head .top {
+  width: 100%;
+}
+.money_head .top .title {
+  line-height: 0.666667rem /* 50/75 */;
+  margin-bottom: 0.266667rem /* 20/75 */;
+  font-size: 0.533333rem /* 40/75 */;
+  color: #000;
+}
+.money_head .top .price {
+  font-size: 0.4rem /* 30/75 */;
+  color: #ff5300;
+}
+.money_head .top .node {
+  font-size: 0.306667rem /* 23/75 */;
+  margin-top: 0.466667rem /* 35/75 */;
+  font-size: 0.293333rem /* 22/75 */;
+}
+.money_head .mid {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0.4rem /* 30/75 */;
+}
+.money_head .mid .left {
+  width: 65%;
+  float: left;
+}
+.money_head .mid .left p {
+  color: #000;
+  font-size: 0.4rem /* 30/75 */;
+  line-height: 0.6rem /* 45/75 */;
+}
+.money_head .mid .left img {
+  width: 100%;
+}
+.money_head .mid .right {
+  width: 35%;
+  height: 100%;
+  float: right;
+}
+.moneyfoot {
+  margin-top: 0.4rem /* 30/75 */;
+  width: 100%;
+  padding: 0.266667rem /* 20/75 */;
+}
+.moneyfoot .more {
+  width: 85%;
+  height: 0.8rem /* 60/75 */;
+  color: #fff;
+  font-size: 0.36rem /* 27/75 */;
+  text-align: center;
+  line-height: 0.8rem /* 60/75 */;
+  background-color: #ff9000;
+  border-radius: 0.133333rem /* 10/75 */;
+  margin: 0 auto;
+  margin-bottom: 1.2rem /* 90/75 */;
+}
+.moneyfoot .saysome {
+  margin-top: 0.8rem /* 60/75 */;
+  width: 100%;
+  height: 3.733333rem /* 280/75 */;
+}
+.moneyfoot .saysome p {
+  color: #000;
+  font-size: 0.4rem /* 30/75 */;
+}
+.moneyfoot .saysome .big {
+  border: 2px solid #888888;
+  width: 100%;
+  height: 85%;
+}
+.moneyfoot .saysome .big .top {
+  width: 100%;
+  height: 70%;
+}
+.moneyfoot .saysome .big .btm {
+  width: 100%;
+  height: 30%;
+  background-color: #fbfbfb;
+  border-top: 2px solid #888888;
+}
+.moneyfoot .saysome .big .btm .son {
+  height: 100%;
+  float: right;
+  width: 25%;
+  background-color: #ff841d;
+  color: #fff;
+  font-size: 0.413333rem /* 31/75 */;
+  text-align: center;
+}
+.cu-content-pl {
+  margin-top: 0.8rem /* 60/75 */;
+}
+.tit {
+  font-size: 0.426667rem /* 32/75 */;
+  height: 0.8rem /* 60/75 */;
+  margin-top: 0.4rem /* 30/75 */;
+}
+.reply {
+  width: 100%;
+  margin-bottom: 0.4rem /* 30/75 */;
+  height: 2.933333rem /* 220/75 */;
+}
+.reply .form {
+  width: 100%;
+  height: 100%;
+}
+.reply .form textarea {
+  width: 100%;
+  height: 70% /* 145/75 */;
+  margin-bottom: 0;
+  border: 2px solid #f0efee;
+}
+.reply .form .ctrl {
+  width: 100%;
+  height: 30%;
+  border: 2px solid #f0efee;
+  position: relative;
+}
+.reply .form .ctrl input {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  float: left;
+  border: 2px solid #fc8e32;
+  background-color: orange;
+  border: none;
+  font-size: 0.4rem /* 30/75 */;
+}
+.list {
+  margin-top: 30px;
+  width: 100%;
+}
+.list ul {
+  width: 100%;
+}
+.list ul li {
+  width: 100%;
+  margin-top: 0.666667rem /* 50/75 */;
+}
+.list ul li .name {
+  padding-top: 0.133333rem /* 10/75 */;
+  margin-bottom: 0.8rem /* 60/75 */;
+}
+.list ul li .name .username {
+  float: left;
+  color: #64aadb;
+  font-size: 0.373333rem /* 28/75 */;
+}
+.list ul li .name .time {
+  color: #000;
+  font-size: 0.373333rem /* 28/75 */;
+  float: right;
+}
+.list ul li img {
+  float: left;
+  width: 1.066667rem /* 80/75 */;
+  height: 1.066667rem /* 80/75 */;
+  border-radius: 50%;
+}
+.list .con {
+  color: #000;
+  font-size: 0.373333rem /* 28/75 */;
+  line-height: 0.466667rem /* 35/75 */;
+  padding-left: 1.266667rem /* 95/75 */;
+}
+.ctrl .tjdp {
+  padding: 0;
+}

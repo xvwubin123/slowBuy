@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    color: #333;
+    text-decoration: none;
+}
+
+
+img {
+    width:100%;
+    display:block;
+}
+// mm
+.mm{
+    max-width: 750px;
+    min-width: 320px;
+    width: 100%;
+    
+    margin: 0 auto;
+    background-color: #fff;
+}
+//head
+.mm_head{
+    width: 100%;
+    height: 1.333333rem /* 100/75 */;
+    background-color: #ff841d;
+    
+    .logo{
+        width: 4.933333rem /* 370/75 */;
+        height: 100%;
+        float: left;
+        display: block;
+        background: url('../images/header_logo.png') no-repeat center center;
+        background-size: 4.933333rem /* 370/75 */ .666667rem /* 50/75 */;
+        margin-left: .4rem /* 30/75 */; 
+    }
+    .app{
+        width: 1.32rem /* 99/75 */;
+        height: 1.32rem /* 99/75 */;
+        display: block;
+        float: right;
+        background: url('../images/header_app.png') no-repeat center center;
+        background-size: .906667rem /* 68/75 */ .906667rem /* 68/75 */;
+    }
+}
+//search
+.mm_search{
+    
+    width: 100%;
+    height: 1.333333rem /* 100/75 */;
+    // margin-bottom: .266667rem /* 20/75 */;
+    background-color: #fff;
+    padding: .266667rem /* 20/75 */;
+    padding-right: 0;
+    
+    input{
+        width: 75% /* 570/75 */ ;
+        height: 100%;
+        background-color: #f1f1f1;
+        font-size: .4rem ;
+        border-radius: .666667rem .666667rem .666667rem .666667rem;
+
+    }
+    button{
+        padding: 0;
+
+        width: 20%/* 130/75 */ ;
+        height: 100%;
+        background-color: #ff841d;
+        color: #fff;
+        font-size: .4rem ;
+        margin-left: .133333rem /* 10/75 */;
+        border-radius: .666667rem .666667rem .666667rem .666667rem;
+    }
+}
+//main
+.mm_main{
+    
+}
+//footer
+.mm_footer{
+    width: 100%;
+    height: 2.533333rem /* 190/75 */;
+    background-color: #f2f2f2;
+    .nav{
+        width: 100%;
+        height: .866667rem /* 65/75 */;
+        border-top: 2px solid #c9c9c9;
+        border-bottom: 2px solid #c9c9c9;
+        ul{
+            height: 100%;
+            width: 100%;
+            li{
+                font-family: '黑体';
+                float: left;
+                
+                height: 100%;
+                border-right: 2px solid #c9c9c9;
+                a{
+                    // padding-top: .24rem /* 18/75 */;
+                    line-height: .813333rem /* 61/75 */;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    line-height: 100%;
+                    font-size: .4rem /* 30/75 */ /* 25/75 */;
+                }
+            }
+            li:nth-child(-n+2){
+                width: 30% /* 224/75 */;
+                line-height: .813333rem /* 61/75 */;
+            }
+            li:nth-last-child(1){
+                width: 40% /* 302/75 */;
+                border-right: none;
+                a{
+                    line-height: .813333rem /* 61/75 */;
+                    background: url('../images/top.jpg') no-repeat 1.2rem /* 90/75 */ .226667rem /* 17/75 */;
+                    background-size: .4rem /* 30/75 */ .4rem /* 30/75 */;
+                }
+            }
+        }
+
+    }
+    .details{
+        font-family: '黑体';
+        height: 1.653333rem /* 124/75 */;
+        width: 100%;
+        text-align: center;
+        margin-top: .4rem /* 30/75 */;
+        .pgtop{
+            margin-bottom: 0;
+            span:nth-child(1){
+                color: red;
+                font-size: .36rem /* 27/75 */
+            }
+            span:nth-child(2){
+                font-size: .36rem /* 27/75 */;
+                color: #000;
+            }
+            span:nth-child(3){
+                font-size: .36rem /* 27/75 */;
+                color: #747474;
+            }
+        }
+        .pg_bottom{
+            font-size: .186667rem /* 14/75 */;
+        }
+    }
+}
+.mm_footer .nav ul li a{
+    line-height: .813333rem /* 61/75 */;
+}

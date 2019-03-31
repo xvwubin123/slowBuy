@@ -1,0 +1,167 @@
+.mm_main {
+  background-color: #f7f7f7;
+}
+.mm_head {
+  background: #f4483e;
+  text-align: center;
+  line-height: 1.333333rem /* 100/75 */;
+}
+.mm_head .back {
+  line-height: 1.333333rem /* 100/75 */;
+  color: #fff;
+  float: left;
+  padding-left: 0.266667rem /* 20/75 */;
+  font-size: 0.8rem /* 60/75 */;
+}
+.mm_head .text {
+  font-size: 0.533333rem /* 40/75 */;
+  color: #fff;
+}
+.bai_title {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  height: 1.066667rem /* 80/75 */;
+  margin-bottom: 0.106667rem /* 8/75 */;
+}
+.bai_title .mui-scroll-wrapper {
+  overflow: visible;
+  height: 40px;
+}
+.mui-segmented-control {
+  font-size: 0.333333rem /* 25/75 */;
+  line-height: 1.066667rem /* 80/75 */;
+}
+.bai_list {
+  width: 100%;
+}
+.bai_list .list_ul {
+  width: 100%;
+}
+.bai_list .list_ul li {
+  overflow: hidden;
+  width: 100%;
+  height: 4rem /* 300/75 */;
+  padding: 0.293333rem /* 22/75 */ 0.133333rem /* 10/75 */;
+  background-color: #fff;
+}
+.bai_list .list_ul li .left {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.bai_list .list_ul li .left img {
+  width: 100%;
+  height: 100%;
+}
+.bai_list .list_ul li .right {
+  float: right;
+  width: 60%;
+  height: 100%;
+  padding-left: 0.133333rem /* 10/75 */;
+}
+.bai_list .list_ul li .right .first {
+  margin-top: 0.133333rem /* 10/75 */;
+  font-size: 0.36rem /* 27/75 */;
+  line-height: 0.533333rem /* 40/75 */;
+  color: #000;
+}
+.bai_list .list_ul li .right .second {
+  margin: 0.333333rem /* 25/75 */ 0;
+  font-size: 0.666667rem /* 50/75 */;
+  color: #f4483e;
+}
+.bai_list .list_ul li .right .second i {
+  font-size: 0.4rem /* 30/75 */;
+}
+.bai_list .list_ul li .right .second em {
+  padding-left: 0.133333rem /* 10/75 */;
+  font-size: 0.266667rem /* 20/75 */;
+}
+.bai_list .list_ul li .right .second del {
+  font-size: 0.266667rem /* 20/75 */;
+  color: #b6a4af;
+  padding-left: 0.133333rem /* 10/75 */;
+}
+.bai_list .list_ul li .right .third {
+  height: 0.4rem /* 30/75 */;
+  font-size: 0.306667rem /* 23/75 */;
+}
+.bai_list .list_ul li .right .third span {
+  border-radius: 0.16rem /* 12/75 */;
+  line-height: .306667rem;
+  font-size: 0.306667rem /* 23/75 */;
+  margin-right: 0.2rem /* 15/75 */;
+  float: left;
+  text-align: center;
+  display: block;
+  width: 2.133333rem /* 160/75 */;
+  color: #fff;
+  height: 0.333333rem /* 25/75 */;
+  background-color: #ffb7b7;
+  border: 2px solid #fc353a;
+}
+.bai_list .list_ul li .right .third b {
+  color: #f4483e;
+}
+.bai_list .list_ul li .right .fourth {
+  width: 100%;
+  height: 0.8rem /* 60/75 */;
+}
+.bai_list .list_ul li .right .fourth .cut {
+  float: left;
+  width: 2.866667rem /* 215/75 */;
+  height: 0.533333rem /* 40/75 */;
+  border: 0.026667rem /* 2/75 */ dashed #f4483e;
+  margin-top: 0.066667rem /* 5/75 */;
+  color: red;
+  text-align: center;
+  line-height: 0.533333rem /* 40/75 */;
+  font-size: 0.24rem /* 18/75 */;
+}
+.bai_list .list_ul li .right .fourth a {
+  float: right;
+  width: 1.546667rem /* 116/75 */;
+  height: 0.733333rem /* 55/75 */;
+  display: block;
+  color: #fff;
+  background-color: #ff5e5d;
+  border-radius: 0.133333rem /* 10/75 */;
+  text-align: center;
+  line-height: 0.733333rem /* 25/75 */;
+  font-size: 0.333333rem /* 25/75 */;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+  color: red;
+  border-bottom: 2px solid red;
+  background: 0 0;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item:hover {
+  color: red;
+  border-bottom: 2px solid red;
+  background: 0 0;
+}
+.backtop {
+  width: 0.666667rem /* 50/75 */;
+  height: 0.666667rem /* 50/75 */;
+  position: fixed;
+  right: 0.266667rem /* 20/75 */;
+  bottom: 0.266667rem /* 20/75 */;
+  border-radius: 50%;
+}
+.backtop a {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  line-height: 0.666667rem /* 50/75 */;
+  background-color: #a1a1a1;
+}
+.bai_title .mui-scroll-wrapper .mui-scroll {
+  height: 1.066667rem /* 80/75 */;
+}
+.bai_title .mui-scroll-wrapper .mui-scroll a {
+  line-height: 1.066667rem /* 80/75 */;
+}

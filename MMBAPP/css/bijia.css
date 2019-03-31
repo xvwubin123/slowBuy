@@ -1,0 +1,183 @@
+.list_title {
+  width: 100%;
+  position: relative;
+  height: 0.96rem /* 72/75 */;
+  border-top: 2px solid #c9c9c9;
+  border-bottom: 2px solid #c9c9c9;
+  background-image: linear-gradient(to bottom, #fff, #ececec);
+  font-size: 0.333333rem /* 25/75 */;
+  padding-left: 0.2rem /* 15/75 */;
+  line-height: 0.96rem /* 72/75 */;
+  padding-right: 0.173333rem /* 13/75 */;
+}
+.list_title button {
+  position: absolute;
+  width: 1.64rem /* 123/75 */;
+  height: 0.72rem /* 54/75 */;
+  top: 0.093333rem /* 7/75 */;
+  right: 0.306667rem /* 23/75 */;
+  border-radius: 8px;
+  padding: 0;
+  line-height: 0.72rem /* 54/75 */;
+  font-size: 0.373333rem /* 28/75 */;
+  background-image: linear-gradient(to top, #fff, #ececec);
+}
+.list_main {
+  width: 100%;
+  height: 10.333333rem /* 775/75 */ /* 500/75 */;
+}
+.list_main .main_img {
+  width: 100%;
+  position: relative;
+  height: 70%;
+  padding: 0.533333rem /* 40/75 */;
+}
+.list_main .main_img p {
+  text-align: center;
+  color: #000;
+  font-size: 0.48rem /* 36/75 */;
+  line-height: 0.533333rem /* 40/75 */;
+}
+.list_main .main_img img {
+  width: 50%;
+  height: 75%;
+  margin: 0 auto;
+}
+.list_main .main_img a {
+  display: block;
+  width: 1.066667rem /* 80/75 */;
+  height: 1.066667rem /* 80/75 */;
+  position: absolute;
+  right: 0.533333rem /* 40/75 */;
+  bottom: 0.533333rem /* 40/75 */;
+  background-color: #95d800;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 1.066667rem /* 80/75 */;
+  font-size: 0.346667rem /* 26/75 */;
+  border: 2px solid #a4cd43;
+}
+.list_main .main_dtl {
+  width: 100%;
+  height: 30%;
+}
+.list_main .main_dtl .main_bijia {
+  width: 100%;
+  height: 25%;
+  border-top: 2px solid #c15538;
+  border-bottom: 2px solid #c15538;
+}
+.list_main .main_dtl .main_bijia ul {
+  width: 100%;
+  height: 100%;
+}
+.list_main .main_dtl .main_bijia ul li {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.72rem /* 54/75 */;
+  border-right: 2px solid #c15538;
+}
+.list_main .main_dtl .main_bijia ul li a {
+  font-size: 0.373333rem /* 28/75 */;
+  color: #fff;
+}
+.list_main .main_dtl .main_bijia ul li:nth-child(1) {
+  background-color: #ffa024;
+}
+.list_main .main_dtl .main_bijia ul li:nth-child(2) {
+  background-color: #ffcb3f;
+}
+.list_main .main_dtl .main_bijia ul li:nth-last-child(1) {
+  border-right: none;
+  background-color: #ffcb3f;
+}
+.list_main .main_dtl .main_shop {
+  width: 100%;
+  height: 35%;
+  font-size: 0.4rem /* 30/75 */;
+  padding: 0.266667rem /* 20/75 */ 0.133333rem /* 10/75 */;
+}
+.list_main .main_dtl .main_shop .p_pic {
+  width: 0.44rem /* 33/75 */;
+  height: 0.44rem /* 33/75 */;
+  margin-right: 0.133333rem /* 10/75 */;
+}
+.list_main .main_dtl .main_shop .red {
+  color: red;
+  text-align: right;
+}
+.list_main .main_dtl .main_ins {
+  width: 100%;
+  height: 40%;
+  padding: 0.266667rem /* 20/75 */;
+  border-top: 2px solid #b2b2b2;
+}
+.list_main .main_dtl .main_ins p {
+  color: #b2b2b2;
+  font-size: 0.293333rem /* 22/75 */;
+  line-height: 0.4rem /* 30/75 */ /* 35/75 */;
+}
+.list_judge {
+  width: 100%;
+  border-top: 5px solid #616161;
+}
+.list_judge .title {
+  width: 100%;
+  height: 0.893333rem /* 67/75 */;
+  background-color: #dbdbdb;
+}
+.list_judge .title p {
+  text-align: center;
+  font-size: 0.346667rem /* 26/75 */;
+  line-height: .893333rem ;
+  color: #000;
+}
+.list_judge .judge_box {
+  width: 100%;
+}
+.list_judge .judge_box .judge_ul {
+  width: 100%;
+}
+.list_judge .judge_box .judge_ul li {
+  padding: 0.4rem /* 30/75 */ 0.133333rem /* 10/75 */;
+  width: 100%;
+  border-bottom: 2px solid #dbdbdb;
+}
+.list_judge .judge_box .judge_ul li .topbox {
+  width: 100%;
+  height: 1.2rem /* 90/75 */;
+}
+.list_judge .judge_box .judge_ul li .topbox .top {
+  margin-bottom: 0.266667rem /* 20/75 */;
+  font-size: 0.346667rem /* 26/75 */;
+}
+.list_judge .judge_box .judge_ul li .topbox .top span:nth-child(2) {
+  float: right;
+}
+.list_judge .judge_box .judge_ul li .topbox .mid {
+  float: right;
+  font-size: .346667rem;
+}
+.list_judge .judge_box .judge_ul li .btm {
+  font-size: .346667rem;
+  line-height: 0.466667rem /* 35/75 */;
+  color: #000;
+}
+.com {
+  width: 100%;
+  height: 1.933333rem /* 145/75 */;
+  padding: 0.4rem /* 30/75 */ 0.2rem /* 15/75 */;
+}
+.com .in {
+  width: 100%;
+  height: 0.866667rem /* 65/75 */;
+  border-radius: 0.066667rem /* 5/75 */;
+  text-align: center;
+  color: #000;
+  line-height: 0.866667rem /* 65/75 */;
+  font-size: 0.373333rem /* 28/75 */;
+  background-image: linear-gradient(to bottom, #f0f0f0, #d6d6d6);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./lib/mui/css/mui.min.css">
+    <link rel="stylesheet" href="./fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/moneyproduct.css">
+    <title>慢慢买</title>
+</head>
+<body>
+    <div class="mm">
+        <div class="mm_head">
+            <a href="javascript:history.go(-1);" class="back"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a href="#" class="text">国内折扣</a>
+            <a href="#" class="app" ></a>
+        </div>
+       
+        <!-- main -->
+        <div class="mm_main">
+            <!-- 模板 -->
+            
+          
+
+        </div>
+        <div class="mm_footer">
+            <div class="nav">
+                <ul>
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li> <a href="#">返回</a></li>
+                </ul>
+            </div>
+            <div class="details">
+                <p class="pgtop"> <span>手机APP下载</span><span>慢慢买手机版 --</span><span>掌上平台</span> </p>
+                <p class="pg_bottom">m.manmanbuy.com</p>
+            </div>
+        </div>
+    </div>
+     <script src="./lib/jquery/jquery.min.js"></script>
+     <script src="./lib/Template/template-web.js"></script>
+     <script src="./js/moneyproduct.js"></script>
+     <script src="./js/setRem.js"></script>
+    
+    <script type="text/html" id="moneytail">
+        {{each result v i}}
+        <div class="money_head">
+                <div class="top">
+                        <p class="title">{{v.productName}}</p>
+                        <p class="node"><span>{{v.productFrom}}</span> <span>{{v.productTime}}</span> <span>{{v.productTips}}</span></p>
+                    </div>
+                    <div class="mid">
+                        <div class="left">
+                            <p>{{v.productInfo}}</p>
+                        </div>
+                        <div class="right">
+                            
+                            {{@v.productImgSm}} 
+                        </div>
+                    </div>
+                    <div class="btm">
+                            <p>{{v.productInfo1}}</p>
+                            {{@v.productImgLg}} 
+                    </div>
+            </div>
+            <div class="money_body">
+                <div class="list">
+                        {{@v.productCity}} 
+                </div>
+            </div>
+            <div class="moneyfoot">
+                <div class="more"> 前往购买</div>
+                <div>
+                    <img src="./images/mmbweixin2.png" alt="">
+                </div>
+                
+                {{@v.productComment}}
+            </div>
+        {{/each}}
+
+    </script>
+   
+</body>
+</html>
